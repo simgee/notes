@@ -1,4 +1,4 @@
-# Python program to convert decimal number into binary number using recursive function
+# Python program to convert decimal number into binary number using nonrecursive function
 binaryform = ""
 n = int(input("Enter an integer: "))# Take decimal number from user
 """Function to print binary number for the input decimal using recursion"""
