@@ -7,10 +7,9 @@ def binary(n):
 	strdigit= str(n % 2)
 	binary(n/2)
 	binaryform += strdigit
-   else:
 	return binaryform
 dec = int(input("Enter an integer: "))# Take decimal number from user
-binary(dec)
-#print(binaryform)
+aa = binary(dec)
+print(aa)
 
 
