@@ -26,7 +26,7 @@ def binary(n, binaryform,i):
 	binaryform += digit*i
 	#print(binaryform)
 	i*=10
-	print(binaryform)
+	#print(binaryform)
 	return binary(n/2, binaryform, i)
 
 dec = int(input("Enter an integer: "))# Take decimal number from user
